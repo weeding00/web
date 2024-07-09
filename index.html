@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>  
-        <meta charset="utf-8"/>
+        <meta name="viewport" content=""width=device-width,initial-scale=1.0">
         <title>Udacity Project</title>
-        <link rel="stylesheet"  href="index.css">
+        <link rel="stylesheet"  href="css/index.css">
     </head>
     <body>
         <h1><center>my three little pigs blog</center></h1>
         <div class="box" >
-            <img src="assets/pexels-photo-1671627.jpeg">
+            <img src="assets/pexels-photo-1671627.jpeg" alt="beautiful wave">
         </div>
         <div class="container">
+
             <div id="header">
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -18,22 +19,15 @@
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
-            <div class="box" id="main" >
-                <div class="grid-item nested-grid">
-                    <div class="content-box" id="c1"><a href="blog1.html">This page shares my best articles to read on topics like health, happiness, creativity, productivity and more. The central question that drives my work is, “How can we live better?” To answer that question, I like to write about science-based ways to solve practical problems.... </a></div>
-                    <div class="content-box" id="c2"><a href="blog2.html">On Wikipedia and other sites running on MediaWiki, Special:Random can be used to access a random article in the main namespace; this feature is useful as a tool to generate a random article. Depending on your browser, it's also possible to load a random page using a keyboard shortcut (in Firefox, Edge, and Chrome.)... </a></div>
-                    <div class="content-box" id="c3">
-                        <a href="blog3.html">
-                        Decision Making
-                        The Ultimate Productivity Hack is Saying No
-                        Why Facts Don’t Change Our Minds
-                        How Innovative Ideas Arise....</a></div>
-                    <div class="content-box" id="c4">
-                        <a href="blog4.html">You’ll find interesting articles to read on topics like how to stop procrastinating as well as personal recommendations like my list of the best books to read and my minimalist travel guide... </a></div>
-                </div>
-            </div>
             <div class="box" id="sidebar">
                 <ul class="li-side">
+                    <li class="li-side"><b>About Me</b></li>
+                    <li class="li-side">April Lee</li>    
+                    <li class="li-side">University of Honolulu</li>    
+                    <li class="li-side">Freelance Writer</li>    
+                    <li class="li-side">Californian enjoying fishing and writing </li>    
+                    <li class="li-side"><img src="assets/avatar.png"></li>    
+                    
                     <li class="li-side"><b>Archives</b></li>
                     <li class="li-side"><a href="month7_24.html">July 2024</a></li>
                     <li class="li-side"><a href="month6_24.html">June 2024</a></li>
@@ -42,11 +36,30 @@
                     <li class="li-side"><a href="month3_24.html">March 2024</a></li>
                     <li class="li-side"><a href="month2_24.html">February 2024</a></li>
                     <li class="li-side"><a href="month1_24.html">January 2024</a></li>
+                    <img src="assets/jumping.jpg">
+                    <figcaption>want to be back...?</figcaption>
+                    <button onclick="window.location.href='index.html';">click here</button>
                 </ul>
             </div>
-        </div>
-        <div class="box"> ©2024 All Rights Reserved </div>
+            <div class="box" id="main" >
+                <div class="nested-grid grid" id="main">
+                    <card>
+                        <img src="assets/avatar.png" alt="head">
+                        <a href="blog1.html">This page shares my best articles to read on topics like health, happiness, creativity, productivity and more. The central question that drives my work is, “How can we live better?” To answer that question, I like to write about science-based ways to solve practical problems.... </a>
+                        
+                    </card>
+                    <card>
+                        <img src="assets/avatar.png" alt="head">
+                        <a href="blog2.html">On Wikipedia and other sites running on MediaWiki, Special:Random can be used to access a random article in the main namespace; this feature is useful as a tool to generate a random article. Depending on your browser, it's also possible to load a random page using a keyboard shortcut (in Firefox, Edge, and Chrome.)... </a></div>
+                    </card>
 
+                </div>
+            </div>
+            
+        </div>
+        <footer class="box">
+            <div class="box"> ©2024 All Rights Reserved </div>
+        </footer>
 
     </body>
 </html>
