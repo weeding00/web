@@ -49,9 +49,9 @@
   text-align:justify;
 }
 
-.content-flex {
-  display:flex;
-  column-gap: 2em;
+.content-grid {
+  display:grid;
+  column-gap: 1em;
 }
 
 #header {

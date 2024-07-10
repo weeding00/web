@@ -83,3 +83,10 @@ textarea:not([rows]) {
 :target {
   scroll-margin-block: 5ex;
 }
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 12px;;
+    padding: 5px;    
+  }
+}
