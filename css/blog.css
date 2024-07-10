@@ -1,6 +1,6 @@
 
 /* ------------------------------- */
-/* Social Media Buttons classes                 */
+/* Social Media Buttons classes    */
 /* ------------------------------- */
 
 
@@ -24,16 +24,22 @@
   .fa-facebook {
     background: #3B5998;
     color: white;
+    margin-left: 15px;
+    margin-right: 15px;
   }
   
   /* Twitter */
   .fa-twitter {
     background: #55ACEE;
     color: white;
+    margin-left: 15px;
+    margin-right: 15px;
   }
   
   /* Twitter */
   .fa-youtube {
     background: red;
     color: white;
+    margin-left: 15px;
+    margin-right: 15px;
   }
